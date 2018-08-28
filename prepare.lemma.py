@@ -8,8 +8,9 @@ lemma = WordNetLemmatizer()
 def clean(doc):
     stop_free = " ".join([i for i in doc.lower().split() if i not in stop])
     punc_free = ''.join(ch for ch in stop_free if ch not in exclude)
-    normalized = " ".join(lemma.lemmatize(word) for word in punc_free.split())
-    return normalized
+    return punc_free
+    #normalized = " ".join(lemma.lemmatize(word) for word in punc_free.split())
+    #return normalized
 
 
 
