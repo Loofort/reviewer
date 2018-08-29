@@ -59,4 +59,4 @@ while :; do
     shift
 done
 
-find $dir -name '*.json' -type f -print0 | xargs -n1 -0 jq -r ".BatchedResults.q0.Results[] | select(.Rating <= $stars ) | .ReviewText" | sort| uniq 
+find $dir -name '*.json' -type f -print0 | xargs -n1 -0 jq ".BatchedResults.q0.Results[] | select(.Rating <= $stars ) | .ReviewText" | sort| uniq 
