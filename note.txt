@@ -1,0 +1,15 @@
+иерархическая кластеризация
+tf idf
+domain adaptation
+http://www.dataocean.info/
+language model
+
+https://github.com/RAU-NLP/amazon-reviews
+https://developer.aylien.com/text-api-demo
+
+https://github.com/Wronskia/Sentiment-Analysis-on-Twitter-data
+https://github.com/mhermnats/tweet-sentiment-analysis
+https://github.com/karanluthra/twitter-sentiment-training
+http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/
+https://www.kaggle.com/c/si650winter11
+

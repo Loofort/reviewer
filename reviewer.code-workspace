@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/illia/work/projects/nlp"
+		}
+	],
+	"settings": {
+		"files.watcherExclude": {
+			"**/.git/objects/**": true,
+			"**/.git/subtree-cache/**": true,
+			"**/node_modules/*/**": true,
+			"**/.env/**": true,
+			"**/nlp/**": true,
+		},
+		"git.ignoreLimitWarning": true
+	}
+}

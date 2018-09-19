@@ -9,7 +9,7 @@ exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
 def clean(doc):
     #doc = re.sub("\d+", " xxnumxx ", doc)
-    doc = re.sub("\W+", " ", doc)
+    doc = re.sub(r"\W+", " ", doc)
     words = [i for i in doc.lower().split()]
     
     punc_free = [ch for ch in words if ch not in exclude]

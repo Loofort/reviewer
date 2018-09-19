@@ -1,4 +1,4 @@
 .env
-.analysis
+analysis
 code/__pycache__/
 data/
